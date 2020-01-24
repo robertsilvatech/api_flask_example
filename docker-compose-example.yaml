@@ -5,4 +5,4 @@ services:
         image: treborbrz/api_flask_example:dev
         container_name: api_flask_example
         ports:
-            - "80:5000"
+            - "80:80"
