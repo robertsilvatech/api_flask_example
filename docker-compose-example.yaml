@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
     api_flask_example:
-        image: treborbrz/api_flask_example:dev
+        image: treborbrz/api_flask_example:latest
         container_name: api_flask_example
         ports:
             - "80:80"
